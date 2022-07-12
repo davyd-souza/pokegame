@@ -17,8 +17,10 @@ const Pokecard = () => {
                         src={imgPokemon(p.id)} 
                         alt={"Image of " + p.name} 
                     />
-                    <p>Type: {p.type}</p>
-                    <p>EXP: {p.base_experience}</p>
+                    <div className="Pokecard-info">
+                        <p className="Pokecard-info-item">type: {p.type}</p>
+                        <p className="Pokecard-info-item">experience: {p.base_experience}</p>
+                    </div>
                 </div>
             )
         })

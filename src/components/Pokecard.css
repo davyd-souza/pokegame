@@ -1,0 +1,16 @@
+.Pokecard {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    padding: 20px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.Pokecard-info {
+    text-transform: capitalize;
+}

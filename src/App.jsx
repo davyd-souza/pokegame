@@ -1,15 +1,15 @@
 // Components
-import Pokecard from './components/Pokecard'
+import Pokedex from './components/Pokedex'
 
 // Style
-import './App.css';
+import './App.css'
 
-export default function App() {
+const App = () => {
   return (
     <div className="App">
-      <Pokecard />
+      <Pokedex />
     </div>
   );
 }
 
-//  App;
+export default App
